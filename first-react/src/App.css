@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #21222a;
+  --secondary-color: #272e34;
+  --font-color-one: #5dcfee;
+  --font-color-two: #fcfefd;
+  --font-color-three: #dfe2e6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+  color: var(--font-color-three);
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  display: none;
+  background-color: #759eb8;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.nav-items {
+  display: inline-flex;
+  flex-direction: row;
+  width: 85%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+  margin: 0 0.5rem;
+  height: 40px;
+}
+
+.nav h3 {
+  color: var(--font-color-one);
+}
+
+.nav-items li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-logo {
+  width: 40px;
+  margin: 0 0.5rem;
+}
+
+.main-content {
+  text-align: left;
+  margin: 4rem 2rem;
+  max-width: 400px;
+}
+
+/* to make the bullet list colored and bigger */
+/* .main-content ul {
+  list-style: none;
+} */
+
+.main-content li {
+  text-align: left;
+  margin: 1rem 0;
+}
+
+/* to make the bullet list colored and bigger */
+/* .main-content ul li::before {
+  content: "\2022";
+  color: var(--font-color-one);
+  font-weight: bold;
+  margin-right: 1rem;
+} */
+
+.main-content ul li::marker {
+  color: var(--font-color-one);
+  font-size: 1.4em;
+}
+
+
+.main-content img {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 175px;
+  opacity: 5%;
+}
