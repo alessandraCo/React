@@ -3,6 +3,7 @@
 --- 
 ## **Project 1 - first React Static page**
 - *Description:* static page with some fun facts about React
+![](https://github.com/alessandraCo/React/blob/main/first-react/fun-facts-about-react.png)
 - *Goals: static pages*
   - JSX
   - Custom components (functional components)
