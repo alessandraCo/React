@@ -28,6 +28,6 @@
 ## **Project 4 - Tenzies-game**
 - *Description:* small dice game that consists in having all 10 dice with the same number
 - *Goals: practising!*
-![](https://github.com/alessandraCo/React/tree/main/tenzies-game)
+![](https://github.com/alessandraCo/React/blob/main/tenzies-game/tenzies-game.gif)
 
 
