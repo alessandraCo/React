@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 1.5rem;
+  /*shadow: h-offset, v-offset, blur, spread, color*/
+  box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.15);
+}
+
+nav > img {
+  width: 82px;
+}
+
+.heroComponent {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.heroComponent > img {
+  max-width: 90%;
+  align-self: center;
+}
+
+.heroComponent > h1 {
+  margin-bottom: 0;
+  align-self: self-start;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.card-element {
+  display:inline-block;
+  height: 300px;
+  width: 186.5px;
+  margin: 2rem;
+}
+
+.card-img {
+  height: 250px; 
+  width: 186.5px;
+}
+
+.card-img > img {
+  display: inline-block;
+  position: absolute;
+  width: 186.5px;
+  border-radius: 5%;
+  z-index: 0;
+}
+
+.card-state {
+  position: absolute;
+  background-color: white;
+  border-radius: 5%;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  font-size: x-small;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.card-valutation {
+  display: flex;
+  flex-direction: row;
+  height: 15px;
+  gap: 0.2rem;
+  margin-top: 0.5rem;
+  font-size: smaller;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.card-valutation > img {
+  width: 15px;
+  height: 15px;
+}
+
+.card-valutation > p {
+  margin: 0;
+}
+
+.location {
+  font-weight: 300;
+}
+
+.card-description, .card-cost {
+  max-width: 186.5px;
+  font-size: small;
+  margin: 0.5rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.important-txt {
+  font-weight: bold;
+}
+
+
+/*sass --watch ./style/main.scss ./style/main.css */
